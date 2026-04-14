@@ -49,7 +49,7 @@ class Customer {
         result += "<P>You owe <EM>" + String.valueOf(getTotalCharge()) + "</EM><P>\n";
         result += "On this rental you earned <EM>" + String.valueOf(getTotalFrequentRenterPoints()) + "</EM> frequent renter points<P>";
         return result;
-    }
+        }
 
     /* private double amountFor(Rental aRental) {
         return aRental.getCharge();
